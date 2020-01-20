@@ -10,7 +10,7 @@ if num > 1:
            print(num,"is not a prime number")
            print(i,"times",num//i,"is",num)
            break
-   else:
+   elif num<=1:
        print(num,"is a prime number")
        
 # if input number is less than
